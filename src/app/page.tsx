@@ -1,16 +1,16 @@
+import HeroSec from "@/components/sections/HeroSec";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Nextjs Starter Frontend",
-  description: "Production grade Next.js starter template",
+  title: "Rishik Roy Portfolio",
+  description: "",
 };
 
 const page = () => {
   return (
-    <section className="grid h-[90dvh] place-items-center">
-      <div className="space-y-2 text-center">
-        <h1 className="text-5xl font-semibold">Nextjs Starter Frontend</h1>
-        <h2 className="text-3xl">Production grade Next.js starter template</h2>
+    <section className="relative flex h-screen flex-col items-center space-y-24">
+      <div className="mx-autor w-[90%] md:w-[60%] lg:w-[35%]">
+        <HeroSec />
       </div>
     </section>
   );
