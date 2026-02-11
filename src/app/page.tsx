@@ -1,4 +1,5 @@
 import HeroSec from "@/components/sections/HeroSec";
+import MotionBg from "@/components/sections/MotionBg";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <section className="relative flex h-screen flex-col items-center space-y-24">
+      <MotionBg />
       <div className="mx-autor w-full md:w-[50dvh] lg:w-[95dvh]">
         <HeroSec />
       </div>
