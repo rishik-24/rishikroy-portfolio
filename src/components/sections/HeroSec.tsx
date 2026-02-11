@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "../shadcnui/button";
 import { Separator } from "../shadcnui/separator";
+import FooterSec from "./FooterSec";
+import MyProjects from "./MyProjects";
 import SkillsSec from "./SkillsSec";
 
 const dotoFont = DotoFont({
@@ -158,6 +160,14 @@ const HeroSec = () => {
       <Separator className="mt-3" />
 
       <SkillsSec />
+
+      <Separator className="mt-3" />
+
+      <MyProjects />
+
+      <Separator className="mt-3" />
+
+      <FooterSec />
     </div>
   );
 };
