@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <section className="relative flex h-screen flex-col items-center space-y-24">
-      <div className="mx-autor w-[90%] md:w-[60%] lg:w-[35%]">
+      <div className="mx-autor w-full md:w-[50dvh] lg:w-[95dvh]">
         <HeroSec />
       </div>
     </section>
